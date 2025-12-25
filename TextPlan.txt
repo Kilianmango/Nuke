@@ -1,0 +1,17 @@
+Make a load of simple functions that take in an int and modify a global variable  
+
+model in discrete time steps . On each tick:
+
+Control rods determine reactivity (how “super-critical” the core is).
+
+Reactivity determines power.
+
+Power heats the fuel.
+
+Fuel transfers heat to coolant.
+
+Coolant carries heat away (depending on pump flow).
+
+We’ll use simple equations with arbitrary units.
+
+state(t + dt) = f(state(t), controls, parameters)

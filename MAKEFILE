@@ -1,0 +1,8 @@
+factorial: Main.o Factorial.o
+	gcc -o program Main.o Factroial.o
+
+Main.o: Main.c
+	gcc -c Main.c
+
+Factorial.o: Factorial.c
+	gcc -c Factorial.c
